@@ -42,7 +42,7 @@ The choice is actually quite complex and entirely depends on the studio's sense 
 
 ## Voxelization methods
 
-We will only consider the case where the mesh consists of triangles, as this will be the most common scenario. However, it's worth noting that [other variants](https://docs.unity3d.com/ScriptReference/MeshTopology.html) are possible. Therefore, our task boils down to [rasterizing triangles](http://www.sunshine2k.de/coding/java/TriangleRasterization/TriangleRasterization.html), but with the addition of the third dimension, which makes it slightly more complex.
+We will only consider the case where the mesh consists of triangles, as this will be the most common scenario. However, it's worth noting that [other variants](https://docs.unity3d.com/ScriptReference/MeshTopology.html) are possible. Therefore, our task boils down to [rasterizing triangles](https://www.sunshine2k.de/coding/java/TriangleRasterization/TriangleRasterization.html), but with the addition of the third dimension, which makes it slightly more complex.
 
 Several algorithms will be discussed below. **However, not all possible options were explored in great detail**. Since our primary focus is game development, I didn't want to invest too much time in the preparatory stage. I simply sketched out different variants quickly and attempted to assess their performance and accuracy. There might be mistakes in some of the implementations, so my final choice may not be the most optimal.
 
